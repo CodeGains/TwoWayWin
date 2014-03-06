@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "SearchViewController.h"
+#import "AccountViewController.h"
+#import "PostItemViewController.h"
 
 @implementation AppDelegate
 
@@ -18,16 +18,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
+    UIViewController *searchController, *postItemController, *accountController;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
+        searchController = [[SearchViewController alloc] initWithNibName:@"SearchViewController_iPhone" bundle:nil];
+        postItemController = [[PostItemViewController alloc] initWithNibName:@"PostItemViewController_iPhone" bundle:nil];
     } else {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
+        searchController = [[SearchViewController alloc] initWithNibName:@"SearchViewController_iPad" bundle:nil];
+        postItemController = [[PostItemViewController alloc] initWithNibName:@"PostItemViewController_iPad" bundle:nil];
     }
+    accountController = [[AccountViewController alloc] initWithNibName:@"AccountViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[searchController, postItemController, accountController];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

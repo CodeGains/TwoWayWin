@@ -1,25 +1,25 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  TwoWayWin
 //
 //  Created by Troy Jaeger on 3/4/14.
 //  Copyright (c) 2014 Troy Jaeger. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "PostItemViewController.h"
 
-@interface FirstViewController ()
+@interface PostItemViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation PostItemViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = NSLocalizedString(@"Post", @"Post");
+        self.tabBarItem.image = [UIImage imageNamed:@"post_icon"];
     }
     return self;
 }

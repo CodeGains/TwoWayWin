@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0540731218C6F6DD0062866E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731018C6F6DD0062866E /* LoginViewController.m */; };
+		0540731318C6F6DD0062866E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540731118C6F6DD0062866E /* LoginViewController.xib */; };
+		0540731718C6F79C0062866E /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731518C6F79C0062866E /* SignUpViewController.m */; };
+		0540731818C6F79C0062866E /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540731618C6F79C0062866E /* SignUpViewController.xib */; };
+		0540731C18C6F7D00062866E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731A18C6F7D00062866E /* AccountViewController.m */; };
+		0540731D18C6F7D00062866E /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540731B18C6F7D00062866E /* AccountViewController.xib */; };
+		0540732118C6F9410062866E /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731F18C6F9410062866E /* ItemDetailViewController.m */; };
+		0540732218C6F9410062866E /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540732018C6F9410062866E /* ItemDetailViewController.xib */; };
+		0540732518C6FAAA0062866E /* ItemTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540732418C6FAAA0062866E /* ItemTableCell.m */; };
+		0540732718C6FACA0062866E /* ItemTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540732618C6FACA0062866E /* ItemTableCell.xib */; };
+		059DFFCC18C86053007D6205 /* settings_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 059DFFCB18C86053007D6205 /* settings_icon.jpg */; };
+		059DFFCE18C8605E007D6205 /* search_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 059DFFCD18C8605E007D6205 /* search_icon.jpg */; };
+		059DFFD018C8606B007D6205 /* post_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 059DFFCF18C8606B007D6205 /* post_icon.jpg */; };
 		05FD165918C6E41D009945A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165818C6E41D009945A1 /* UIKit.framework */; };
 		05FD165B18C6E41D009945A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165A18C6E41D009945A1 /* Foundation.framework */; };
 		05FD165D18C6E41D009945A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165C18C6E41D009945A1 /* CoreGraphics.framework */; };
@@ -16,19 +29,37 @@
 		05FD166B18C6E41D009945A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD166A18C6E41D009945A1 /* Default.png */; };
 		05FD166D18C6E41D009945A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD166C18C6E41D009945A1 /* Default@2x.png */; };
 		05FD166F18C6E41D009945A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD166E18C6E41D009945A1 /* Default-568h@2x.png */; };
-		05FD167218C6E41D009945A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD167118C6E41D009945A1 /* FirstViewController.m */; };
+		05FD167218C6E41D009945A1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD167118C6E41D009945A1 /* SearchViewController.m */; };
 		05FD167418C6E41D009945A1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167318C6E41D009945A1 /* first.png */; };
 		05FD167618C6E41D009945A1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167518C6E41D009945A1 /* first@2x.png */; };
-		05FD167918C6E41D009945A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD167818C6E41D009945A1 /* SecondViewController.m */; };
+		05FD167918C6E41D009945A1 /* PostItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD167818C6E41D009945A1 /* PostItemViewController.m */; };
 		05FD167B18C6E41D009945A1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167A18C6E41D009945A1 /* second.png */; };
 		05FD167D18C6E41D009945A1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167C18C6E41D009945A1 /* second@2x.png */; };
-		05FD168018C6E41D009945A1 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167E18C6E41D009945A1 /* FirstViewController_iPhone.xib */; };
-		05FD168318C6E41D009945A1 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168118C6E41D009945A1 /* FirstViewController_iPad.xib */; };
-		05FD168618C6E41D009945A1 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168418C6E41D009945A1 /* SecondViewController_iPhone.xib */; };
-		05FD168918C6E41D009945A1 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168718C6E41D009945A1 /* SecondViewController_iPad.xib */; };
+		05FD168018C6E41D009945A1 /* SearchViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD167E18C6E41D009945A1 /* SearchViewController_iPhone.xib */; };
+		05FD168318C6E41D009945A1 /* SearchViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168118C6E41D009945A1 /* SearchViewController_iPad.xib */; };
+		05FD168618C6E41D009945A1 /* PostItemViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168418C6E41D009945A1 /* PostItemViewController_iPhone.xib */; };
+		05FD168918C6E41D009945A1 /* PostItemViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FD168718C6E41D009945A1 /* PostItemViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0540730F18C6F6DD0062866E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0540731018C6F6DD0062866E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0540731118C6F6DD0062866E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0540731418C6F79C0062866E /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		0540731518C6F79C0062866E /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		0540731618C6F79C0062866E /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		0540731918C6F7D00062866E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		0540731A18C6F7D00062866E /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		0540731B18C6F7D00062866E /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		0540731E18C6F9410062866E /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		0540731F18C6F9410062866E /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		0540732018C6F9410062866E /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
+		0540732318C6FAAA0062866E /* ItemTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableCell.h; sourceTree = "<group>"; };
+		0540732418C6FAAA0062866E /* ItemTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableCell.m; sourceTree = "<group>"; };
+		0540732618C6FACA0062866E /* ItemTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableCell.xib; sourceTree = "<group>"; };
+		059DFFCB18C86053007D6205 /* settings_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings_icon.jpg; sourceTree = "<group>"; };
+		059DFFCD18C8605E007D6205 /* search_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search_icon.jpg; sourceTree = "<group>"; };
+		059DFFCF18C8606B007D6205 /* post_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = post_icon.jpg; sourceTree = "<group>"; };
 		05FD165418C6E41D009945A1 /* TwoWayWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoWayWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FD165818C6E41D009945A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05FD165A18C6E41D009945A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,18 +73,18 @@
 		05FD166A18C6E41D009945A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		05FD166C18C6E41D009945A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		05FD166E18C6E41D009945A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		05FD167018C6E41D009945A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		05FD167118C6E41D009945A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		05FD167018C6E41D009945A1 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		05FD167118C6E41D009945A1 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		05FD167318C6E41D009945A1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		05FD167518C6E41D009945A1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		05FD167718C6E41D009945A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		05FD167818C6E41D009945A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		05FD167718C6E41D009945A1 /* PostItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostItemViewController.h; sourceTree = "<group>"; };
+		05FD167818C6E41D009945A1 /* PostItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostItemViewController.m; sourceTree = "<group>"; };
 		05FD167A18C6E41D009945A1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		05FD167C18C6E41D009945A1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		05FD167F18C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		05FD168218C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
-		05FD168518C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		05FD168818C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		05FD167F18C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchViewController_iPhone.xib; sourceTree = "<group>"; };
+		05FD168218C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchViewController_iPad.xib; sourceTree = "<group>"; };
+		05FD168518C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PostItemViewController_iPhone.xib; sourceTree = "<group>"; };
+		05FD168818C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PostItemViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +104,12 @@
 		05FD164918C6E41D009945A1 = {
 			isa = PBXGroup;
 			children = (
+				0540732618C6FACA0062866E /* ItemTableCell.xib */,
+				0540732318C6FAAA0062866E /* ItemTableCell.h */,
+				0540732418C6FAAA0062866E /* ItemTableCell.m */,
+				0540731E18C6F9410062866E /* ItemDetailViewController.h */,
+				0540731F18C6F9410062866E /* ItemDetailViewController.m */,
+				0540732018C6F9410062866E /* ItemDetailViewController.xib */,
 				05FD165E18C6E41D009945A1 /* TwoWayWin */,
 				05FD165718C6E41D009945A1 /* Frameworks */,
 				05FD165518C6E41D009945A1 /* Products */,
@@ -100,21 +137,33 @@
 		05FD165E18C6E41D009945A1 /* TwoWayWin */ = {
 			isa = PBXGroup;
 			children = (
+				059DFFCF18C8606B007D6205 /* post_icon.jpg */,
+				059DFFCD18C8605E007D6205 /* search_icon.jpg */,
+				059DFFCB18C86053007D6205 /* settings_icon.jpg */,
 				05FD166718C6E41D009945A1 /* AppDelegate.h */,
 				05FD166818C6E41D009945A1 /* AppDelegate.m */,
-				05FD167018C6E41D009945A1 /* FirstViewController.h */,
-				05FD167118C6E41D009945A1 /* FirstViewController.m */,
+				05FD167018C6E41D009945A1 /* SearchViewController.h */,
+				05FD167118C6E41D009945A1 /* SearchViewController.m */,
 				05FD167318C6E41D009945A1 /* first.png */,
 				05FD167518C6E41D009945A1 /* first@2x.png */,
-				05FD167718C6E41D009945A1 /* SecondViewController.h */,
-				05FD167818C6E41D009945A1 /* SecondViewController.m */,
+				05FD167718C6E41D009945A1 /* PostItemViewController.h */,
+				05FD167818C6E41D009945A1 /* PostItemViewController.m */,
 				05FD167A18C6E41D009945A1 /* second.png */,
 				05FD167C18C6E41D009945A1 /* second@2x.png */,
-				05FD167E18C6E41D009945A1 /* FirstViewController_iPhone.xib */,
-				05FD168118C6E41D009945A1 /* FirstViewController_iPad.xib */,
-				05FD168418C6E41D009945A1 /* SecondViewController_iPhone.xib */,
-				05FD168718C6E41D009945A1 /* SecondViewController_iPad.xib */,
+				05FD167E18C6E41D009945A1 /* SearchViewController_iPhone.xib */,
+				05FD168118C6E41D009945A1 /* SearchViewController_iPad.xib */,
+				05FD168418C6E41D009945A1 /* PostItemViewController_iPhone.xib */,
+				05FD168718C6E41D009945A1 /* PostItemViewController_iPad.xib */,
 				05FD165F18C6E41D009945A1 /* Supporting Files */,
+				0540730F18C6F6DD0062866E /* LoginViewController.h */,
+				0540731018C6F6DD0062866E /* LoginViewController.m */,
+				0540731118C6F6DD0062866E /* LoginViewController.xib */,
+				0540731418C6F79C0062866E /* SignUpViewController.h */,
+				0540731518C6F79C0062866E /* SignUpViewController.m */,
+				0540731618C6F79C0062866E /* SignUpViewController.xib */,
+				0540731918C6F7D00062866E /* AccountViewController.h */,
+				0540731A18C6F7D00062866E /* AccountViewController.m */,
+				0540731B18C6F7D00062866E /* AccountViewController.xib */,
 			);
 			path = TwoWayWin;
 			sourceTree = "<group>";
@@ -185,17 +234,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FD166318C6E41D009945A1 /* InfoPlist.strings in Resources */,
+				059DFFCE18C8605E007D6205 /* search_icon.jpg in Resources */,
+				059DFFD018C8606B007D6205 /* post_icon.jpg in Resources */,
+				059DFFCC18C86053007D6205 /* settings_icon.jpg in Resources */,
 				05FD166B18C6E41D009945A1 /* Default.png in Resources */,
+				0540731818C6F79C0062866E /* SignUpViewController.xib in Resources */,
 				05FD166D18C6E41D009945A1 /* Default@2x.png in Resources */,
+				0540731D18C6F7D00062866E /* AccountViewController.xib in Resources */,
+				0540732718C6FACA0062866E /* ItemTableCell.xib in Resources */,
 				05FD166F18C6E41D009945A1 /* Default-568h@2x.png in Resources */,
 				05FD167418C6E41D009945A1 /* first.png in Resources */,
 				05FD167618C6E41D009945A1 /* first@2x.png in Resources */,
 				05FD167B18C6E41D009945A1 /* second.png in Resources */,
 				05FD167D18C6E41D009945A1 /* second@2x.png in Resources */,
-				05FD168018C6E41D009945A1 /* FirstViewController_iPhone.xib in Resources */,
-				05FD168318C6E41D009945A1 /* FirstViewController_iPad.xib in Resources */,
-				05FD168618C6E41D009945A1 /* SecondViewController_iPhone.xib in Resources */,
-				05FD168918C6E41D009945A1 /* SecondViewController_iPad.xib in Resources */,
+				05FD168018C6E41D009945A1 /* SearchViewController_iPhone.xib in Resources */,
+				0540731318C6F6DD0062866E /* LoginViewController.xib in Resources */,
+				05FD168318C6E41D009945A1 /* SearchViewController_iPad.xib in Resources */,
+				05FD168618C6E41D009945A1 /* PostItemViewController_iPhone.xib in Resources */,
+				0540732218C6F9410062866E /* ItemDetailViewController.xib in Resources */,
+				05FD168918C6E41D009945A1 /* PostItemViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +265,13 @@
 			files = (
 				05FD166518C6E41D009945A1 /* main.m in Sources */,
 				05FD166918C6E41D009945A1 /* AppDelegate.m in Sources */,
-				05FD167218C6E41D009945A1 /* FirstViewController.m in Sources */,
-				05FD167918C6E41D009945A1 /* SecondViewController.m in Sources */,
+				0540731C18C6F7D00062866E /* AccountViewController.m in Sources */,
+				0540732518C6FAAA0062866E /* ItemTableCell.m in Sources */,
+				0540731718C6F79C0062866E /* SignUpViewController.m in Sources */,
+				05FD167218C6E41D009945A1 /* SearchViewController.m in Sources */,
+				05FD167918C6E41D009945A1 /* PostItemViewController.m in Sources */,
+				0540732118C6F9410062866E /* ItemDetailViewController.m in Sources */,
+				0540731218C6F6DD0062866E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,36 +286,36 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		05FD167E18C6E41D009945A1 /* FirstViewController_iPhone.xib */ = {
+		05FD167E18C6E41D009945A1 /* SearchViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05FD167F18C6E41D009945A1 /* en */,
 			);
-			name = FirstViewController_iPhone.xib;
+			name = SearchViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		05FD168118C6E41D009945A1 /* FirstViewController_iPad.xib */ = {
+		05FD168118C6E41D009945A1 /* SearchViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05FD168218C6E41D009945A1 /* en */,
 			);
-			name = FirstViewController_iPad.xib;
+			name = SearchViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		05FD168418C6E41D009945A1 /* SecondViewController_iPhone.xib */ = {
+		05FD168418C6E41D009945A1 /* PostItemViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05FD168518C6E41D009945A1 /* en */,
 			);
-			name = SecondViewController_iPhone.xib;
+			name = PostItemViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		05FD168718C6E41D009945A1 /* SecondViewController_iPad.xib */ = {
+		05FD168718C6E41D009945A1 /* PostItemViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05FD168818C6E41D009945A1 /* en */,
 			);
-			name = SecondViewController_iPad.xib;
+			name = PostItemViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwoWayWin/TwoWayWin-Prefix.pch";
 				INFOPLIST_FILE = "TwoWayWin/TwoWayWin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -328,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwoWayWin/TwoWayWin-Prefix.pch";
 				INFOPLIST_FILE = "TwoWayWin/TwoWayWin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -352,6 +416,7 @@
 				05FD168E18C6E41D009945A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
