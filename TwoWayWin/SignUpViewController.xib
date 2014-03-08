@@ -14,98 +14,68 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8iw-sk-rVd">
-                    <rect key="frame" x="6" y="93" width="305" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="305" id="hzt-vD-KbJ"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="E-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFd-Ck-qXf">
-                    <rect key="frame" x="6" y="64" width="49" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnS-7k-zLw">
-                    <rect key="frame" x="6" y="176" width="305" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Spg-tb-Yd3">
+                    <rect key="frame" x="12" y="85" width="297" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxf-9Z-DLa">
-                    <rect key="frame" x="6" y="147" width="76" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-aL-FSA">
-                    <rect key="frame" x="6" y="261" width="305" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tl-jh-JV0">
+                    <rect key="frame" x="12" y="239" width="297" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Repeat Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-2C-50c">
-                    <rect key="frame" x="6" y="232" width="136" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Telephone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkZ-Pv-WWw">
-                    <rect key="frame" x="6" y="315" width="79" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tK5-jx-A2e">
-                    <rect key="frame" x="6" y="523" width="309" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="309" id="KRZ-ti-wkF"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Optional Credit Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdj-AO-FQB">
-                    <rect key="frame" x="6" y="494" width="158" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tWU-Ug-4zc">
-                    <rect key="frame" x="6" y="344" width="305" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSC-9C-dYe">
+                    <rect key="frame" x="12" y="308" width="297" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3F-3p-TwO">
+                    <rect key="frame" x="12" y="68" width="82" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dWp-Ef-dKi">
+                    <rect key="frame" x="12" y="161" width="297" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Optonal Credit Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ4-LS-1uu">
+                    <rect key="frame" x="14" y="494" width="155" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eWF-2o-Gj1">
+                    <rect key="frame" x="12" y="518" width="297" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hrk-OE-edQ">
+                    <rect key="frame" x="12" y="142" width="76" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repeat Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAt-PQ-fv8">
+                    <rect key="frame" x="12" y="220" width="136" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8M5-ex-sfq">
+                    <rect key="frame" x="12" y="290" width="136" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="Sdj-AO-FQB" firstAttribute="leading" secondItem="tWU-Ug-4zc" secondAttribute="leading" id="1Ey-bM-ssA"/>
-                <constraint firstItem="fb1-2C-50c" firstAttribute="leading" secondItem="Bch-aL-FSA" secondAttribute="leading" id="5m0-46-dzP"/>
-                <constraint firstItem="Bch-aL-FSA" firstAttribute="trailing" secondItem="LnS-7k-zLw" secondAttribute="trailing" id="6St-Xx-TeE"/>
-                <constraint firstItem="8iw-sk-rVd" firstAttribute="trailing" secondItem="LnS-7k-zLw" secondAttribute="trailing" id="7cY-yD-sO3"/>
-                <constraint firstItem="tWU-Ug-4zc" firstAttribute="trailing" secondItem="Bch-aL-FSA" secondAttribute="trailing" id="BUw-Te-Lrx"/>
-                <constraint firstItem="XFd-Ck-qXf" firstAttribute="leading" secondItem="8iw-sk-rVd" secondAttribute="leading" id="G8U-ZJ-ao2"/>
-                <constraint firstItem="fb1-2C-50c" firstAttribute="leading" secondItem="LnS-7k-zLw" secondAttribute="leading" id="I4x-MS-wpV"/>
-                <constraint firstItem="tWU-Ug-4zc" firstAttribute="top" secondItem="MkZ-Pv-WWw" secondAttribute="bottom" constant="8" symbolic="YES" id="SNo-3M-ZzK"/>
-                <constraint firstItem="MkZ-Pv-WWw" firstAttribute="leading" secondItem="tWU-Ug-4zc" secondAttribute="leading" id="VTv-eX-igJ"/>
-                <constraint firstItem="8iw-sk-rVd" firstAttribute="top" secondItem="XFd-Ck-qXf" secondAttribute="bottom" constant="8" symbolic="YES" id="cWc-eT-fAc"/>
-                <constraint firstItem="8iw-sk-rVd" firstAttribute="leading" secondItem="Zxf-9Z-DLa" secondAttribute="leading" id="ckK-ch-6El"/>
-                <constraint firstItem="Zxf-9Z-DLa" firstAttribute="leading" secondItem="LnS-7k-zLw" secondAttribute="leading" id="eMU-Ok-Bf3"/>
-                <constraint firstItem="LnS-7k-zLw" firstAttribute="top" secondItem="Zxf-9Z-DLa" secondAttribute="bottom" constant="8" symbolic="YES" id="iUR-4c-fs5"/>
-                <constraint firstItem="Bch-aL-FSA" firstAttribute="leading" secondItem="MkZ-Pv-WWw" secondAttribute="leading" id="ihV-SC-bNY"/>
-                <constraint firstItem="tK5-jx-A2e" firstAttribute="top" secondItem="Sdj-AO-FQB" secondAttribute="bottom" constant="8" symbolic="YES" id="jhZ-Ma-8l6"/>
-                <constraint firstItem="Sdj-AO-FQB" firstAttribute="leading" secondItem="tK5-jx-A2e" secondAttribute="leading" id="sU1-xQ-GHs"/>
-                <constraint firstItem="Bch-aL-FSA" firstAttribute="top" secondItem="fb1-2C-50c" secondAttribute="bottom" constant="8" symbolic="YES" id="vwt-5M-LJq"/>
-            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>

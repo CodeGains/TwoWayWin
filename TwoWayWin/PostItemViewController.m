@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Post", @"Post");
-        self.tabBarItem.image = [UIImage imageNamed:@"post_icon.jpg"];
+        self.tabBarItem.image = [UIImage imageNamed:@"post_icon.png"];
     }
     return self;
 }

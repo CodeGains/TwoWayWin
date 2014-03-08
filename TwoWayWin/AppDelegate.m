@@ -30,6 +30,19 @@
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[searchController, postItemController, accountController];
     self.window.rootViewController = self.tabBarController;
+    
+    
+    UITabBarItem *item1 = self.tabBarController.tabBar.items[0];
+    item1.image = [[UIImage imageNamed:@"search_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]; // unselected image
+    //item1.selectedImage = [UIImage imageNamed:@"tabbar-item1-selected"]; // selected image
+    
+    UITabBarItem *item2 = self.tabBarController.tabBar.items[1];
+    item2.image = [[UIImage imageNamed:@"post_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]; // unselected image
+    
+    UITabBarItem *item3 = self.tabBarController.tabBar.items[2];
+    item3.image = [[UIImage imageNamed:@"settings_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]; // unselected image
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

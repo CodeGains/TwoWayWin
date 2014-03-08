@@ -20,7 +20,7 @@
     if (self) {
         // Custom initialization
         self.title = NSLocalizedString(@"Account", @"Account");
-        self.tabBarItem.image = [UIImage imageNamed:@"settings_icon.jpg"];
+        self.tabBarItem.image = [UIImage imageNamed:@"settings_icon.png"];
     }
     return self;
 }
