@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = NSLocalizedString(@"Account", @"Account");
+        self.tabBarItem.image = [UIImage imageNamed:@"settings_icon.jpg"];
     }
     return self;
 }

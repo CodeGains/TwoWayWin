@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Search", @"Search");
-        self.tabBarItem.image = [UIImage imageNamed:@"search_icon"];
+        self.tabBarItem.image = [UIImage imageNamed:@"search_icon.jpg"];
     }
     return self;
 }
