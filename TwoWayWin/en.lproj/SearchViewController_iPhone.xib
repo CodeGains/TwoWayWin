@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController">
             <connections>
+                <outlet property="searchBar" destination="MgG-3b-sXY" id="5eE-Fx-fR0"/>
+                <outlet property="searchDisplayController" destination="O3R-9r-oe2" id="aMj-sA-0A0"/>
+                <outlet property="tableView" destination="JMR-nB-ttf" id="Jjt-qh-FeI"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -14,38 +17,36 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="5">
-                    <rect key="frame" x="20" y="158" width="280" height="42"/>
+                <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MgG-3b-sXY">
+                    <rect key="frame" x="0.0" y="59" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="20" y="240" width="280" height="88"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="88" id="14"/>
-                    </constraints>
-                    <string key="text">Loaded by the first view
-controller — an instance of FirstViewController — specified in the app delegate.</string>
-                    <fontDescription key="fontDescription" type="system" size="system"/>
                     <textInputTraits key="textInputTraits"/>
-                </textView>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9oH-tX-g1p"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JMR-nB-ttf">
+                    <rect key="frame" x="0.0" y="103" width="320" height="300"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="VhX-Bv-noZ"/>
+                        <outlet property="delegate" destination="-1" id="zAm-vc-28e"/>
+                    </connections>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="8"/>
-                <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="20" symbolic="YES" id="11"/>
-                <constraint firstAttribute="trailing" secondItem="7" secondAttribute="trailing" constant="20" symbolic="YES" id="12"/>
-                <constraint firstItem="7" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="13"/>
-                <constraint firstItem="7" firstAttribute="top" secondItem="5" secondAttribute="bottom" constant="40" id="15"/>
-                <constraint firstAttribute="centerY" secondItem="7" secondAttribute="centerY" id="17"/>
-            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
+        <searchDisplayController id="O3R-9r-oe2">
+            <connections>
+                <outlet property="delegate" destination="-1" id="UC2-FO-Sbe"/>
+                <outlet property="searchContentsController" destination="-1" id="9Wn-ho-KvH"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="j78-ji-Kjc"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="ubS-mI-BHa"/>
+            </connections>
+        </searchDisplayController>
     </objects>
 </document>

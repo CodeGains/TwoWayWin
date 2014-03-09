@@ -1,5 +1,5 @@
 //
-//  ItemTableCell.h
+//  ItemCell.h
 //  TwoWayWin
 //
 //  Created by Troy Jaeger on 3/4/14.
@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Item.h"
 
-@interface ItemTableCell : UITableViewCell
+@interface ItemCell : UITableViewCell
 
 @property(nonatomic, strong) IBOutlet UILabel* title;
 @property(nonatomic, strong) IBOutlet UILabel* test;
+@property(nonatomic, strong) IBOutlet UIImageView* thumbnail;
+
+@property(nonatomic, retain) Item *item;
 
 @end
