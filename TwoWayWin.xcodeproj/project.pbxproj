@@ -13,14 +13,14 @@
 		0540731818C6F79C0062866E /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540731618C6F79C0062866E /* SignUpViewController.xib */; };
 		0540731C18C6F7D00062866E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731A18C6F7D00062866E /* AccountViewController.m */; };
 		0540731D18C6F7D00062866E /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540731B18C6F7D00062866E /* AccountViewController.xib */; };
-		0540732118C6F9410062866E /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540731F18C6F9410062866E /* ItemDetailViewController.m */; };
-		0540732218C6F9410062866E /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540732018C6F9410062866E /* ItemDetailViewController.xib */; };
-		0540732518C6FAAA0062866E /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540732418C6FAAA0062866E /* ItemCell.m */; };
-		0540732718C6FACA0062866E /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540732618C6FACA0062866E /* ItemCell.xib */; };
 		054C4C9C18CB0DD700156D1C /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 054C4C9B18CB0DD700156D1C /* search_icon.png */; };
 		054C4C9E18CB0DDF00156D1C /* post_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 054C4C9D18CB0DDF00156D1C /* post_icon.png */; };
 		054C4CA018CB0DEA00156D1C /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 054C4C9F18CB0DEA00156D1C /* settings_icon.png */; };
 		054C4CA318CC4A6F00156D1C /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 054C4CA218CC4A6F00156D1C /* Item.m */; };
+		054C4CA718CC717800156D1C /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 054C4CA518CC717800156D1C /* ItemCell.m */; };
+		054C4CA818CC717800156D1C /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054C4CA618CC717800156D1C /* ItemCell.xib */; };
+		054C4CAC18CC71A100156D1C /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054C4CAA18CC71A100156D1C /* ItemDetailViewController.m */; };
+		054C4CAD18CC71A100156D1C /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054C4CAB18CC71A100156D1C /* ItemDetailViewController.xib */; };
 		05FD165918C6E41D009945A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165818C6E41D009945A1 /* UIKit.framework */; };
 		05FD165B18C6E41D009945A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165A18C6E41D009945A1 /* Foundation.framework */; };
 		05FD165D18C6E41D009945A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FD165C18C6E41D009945A1 /* CoreGraphics.framework */; };
@@ -52,17 +52,17 @@
 		0540731918C6F7D00062866E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		0540731A18C6F7D00062866E /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		0540731B18C6F7D00062866E /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
-		0540731E18C6F9410062866E /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
-		0540731F18C6F9410062866E /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
-		0540732018C6F9410062866E /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
-		0540732318C6FAAA0062866E /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
-		0540732418C6FAAA0062866E /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
-		0540732618C6FACA0062866E /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		054C4C9B18CB0DD700156D1C /* search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_icon.png; sourceTree = "<group>"; };
 		054C4C9D18CB0DDF00156D1C /* post_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = post_icon.png; sourceTree = "<group>"; };
 		054C4C9F18CB0DEA00156D1C /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
 		054C4CA118CC4A6F00156D1C /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		054C4CA218CC4A6F00156D1C /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		054C4CA418CC717800156D1C /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		054C4CA518CC717800156D1C /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		054C4CA618CC717800156D1C /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		054C4CA918CC71A100156D1C /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		054C4CAA18CC71A100156D1C /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		054C4CAB18CC71A100156D1C /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
 		05FD165418C6E41D009945A1 /* TwoWayWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoWayWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FD165818C6E41D009945A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05FD165A18C6E41D009945A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,12 +107,6 @@
 		05FD164918C6E41D009945A1 = {
 			isa = PBXGroup;
 			children = (
-				0540732618C6FACA0062866E /* ItemCell.xib */,
-				0540732318C6FAAA0062866E /* ItemCell.h */,
-				0540732418C6FAAA0062866E /* ItemCell.m */,
-				0540731E18C6F9410062866E /* ItemDetailViewController.h */,
-				0540731F18C6F9410062866E /* ItemDetailViewController.m */,
-				0540732018C6F9410062866E /* ItemDetailViewController.xib */,
 				05FD165E18C6E41D009945A1 /* TwoWayWin */,
 				05FD165718C6E41D009945A1 /* Frameworks */,
 				05FD165518C6E41D009945A1 /* Products */,
@@ -140,6 +134,12 @@
 		05FD165E18C6E41D009945A1 /* TwoWayWin */ = {
 			isa = PBXGroup;
 			children = (
+				054C4CA918CC71A100156D1C /* ItemDetailViewController.h */,
+				054C4CAA18CC71A100156D1C /* ItemDetailViewController.m */,
+				054C4CAB18CC71A100156D1C /* ItemDetailViewController.xib */,
+				054C4CA418CC717800156D1C /* ItemCell.h */,
+				054C4CA518CC717800156D1C /* ItemCell.m */,
+				054C4CA618CC717800156D1C /* ItemCell.xib */,
 				054C4C9F18CB0DEA00156D1C /* settings_icon.png */,
 				054C4C9D18CB0DDF00156D1C /* post_icon.png */,
 				054C4C9B18CB0DD700156D1C /* search_icon.png */,
@@ -242,13 +242,14 @@
 				054C4CA018CB0DEA00156D1C /* settings_icon.png in Resources */,
 				05FD166318C6E41D009945A1 /* InfoPlist.strings in Resources */,
 				05FD166B18C6E41D009945A1 /* Default.png in Resources */,
+				054C4CAD18CC71A100156D1C /* ItemDetailViewController.xib in Resources */,
 				0540731818C6F79C0062866E /* SignUpViewController.xib in Resources */,
 				05FD166D18C6E41D009945A1 /* Default@2x.png in Resources */,
 				0540731D18C6F7D00062866E /* AccountViewController.xib in Resources */,
-				0540732718C6FACA0062866E /* ItemCell.xib in Resources */,
 				05FD166F18C6E41D009945A1 /* Default-568h@2x.png in Resources */,
 				05FD167418C6E41D009945A1 /* first.png in Resources */,
 				05FD167618C6E41D009945A1 /* first@2x.png in Resources */,
+				054C4CA818CC717800156D1C /* ItemCell.xib in Resources */,
 				05FD167B18C6E41D009945A1 /* second.png in Resources */,
 				05FD167D18C6E41D009945A1 /* second@2x.png in Resources */,
 				05FD168018C6E41D009945A1 /* SearchViewController_iPhone.xib in Resources */,
@@ -256,7 +257,6 @@
 				05FD168318C6E41D009945A1 /* SearchViewController_iPad.xib in Resources */,
 				054C4C9E18CB0DDF00156D1C /* post_icon.png in Resources */,
 				05FD168618C6E41D009945A1 /* PostItemViewController_iPhone.xib in Resources */,
-				0540732218C6F9410062866E /* ItemDetailViewController.xib in Resources */,
 				05FD168918C6E41D009945A1 /* PostItemViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +272,11 @@
 				05FD166518C6E41D009945A1 /* main.m in Sources */,
 				05FD166918C6E41D009945A1 /* AppDelegate.m in Sources */,
 				0540731C18C6F7D00062866E /* AccountViewController.m in Sources */,
-				0540732518C6FAAA0062866E /* ItemCell.m in Sources */,
+				054C4CA718CC717800156D1C /* ItemCell.m in Sources */,
 				0540731718C6F79C0062866E /* SignUpViewController.m in Sources */,
 				05FD167218C6E41D009945A1 /* SearchViewController.m in Sources */,
 				05FD167918C6E41D009945A1 /* PostItemViewController.m in Sources */,
-				0540732118C6F9410062866E /* ItemDetailViewController.m in Sources */,
+				054C4CAC18CC71A100156D1C /* ItemDetailViewController.m in Sources */,
 				0540731218C6F6DD0062866E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
