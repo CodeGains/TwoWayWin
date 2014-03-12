@@ -10,4 +10,9 @@
 
 @interface LoginViewController : UINavigationController
 
+@property(nonatomic, strong) IBOutlet UITextField *usernameField;
+@property(nonatomic, strong) IBOutlet UITextField *passwordField;
+
+-(IBAction)signInButtonClicked:(UIButton*)sender;
+-(IBAction)createAccountButtonClicked:(UIButton*)sender;
 @end

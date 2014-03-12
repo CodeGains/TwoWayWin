@@ -14,6 +14,8 @@
 
 @implementation LoginViewController
 
+@synthesize passwordField, usernameField;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
