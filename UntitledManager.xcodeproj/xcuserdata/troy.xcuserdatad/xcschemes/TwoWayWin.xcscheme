@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "05FD165318C6E41D009945A1"
                BuildableName = "TwoWayWin.app"
-               BlueprintName = "TwoWayWin"
-               ReferencedContainer = "container:TwoWayWin.xcodeproj">
+               BlueprintName = "UntitledManager"
+               ReferencedContainer = "container:UntitledManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "05FD165318C6E41D009945A1"
             BuildableName = "TwoWayWin.app"
-            BlueprintName = "TwoWayWin"
-            ReferencedContainer = "container:TwoWayWin.xcodeproj">
+            BlueprintName = "UntitledManager"
+            ReferencedContainer = "container:UntitledManager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "05FD165318C6E41D009945A1"
             BuildableName = "TwoWayWin.app"
-            BlueprintName = "TwoWayWin"
-            ReferencedContainer = "container:TwoWayWin.xcodeproj">
+            BlueprintName = "UntitledManager"
+            ReferencedContainer = "container:UntitledManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "05FD165318C6E41D009945A1"
             BuildableName = "TwoWayWin.app"
-            BlueprintName = "TwoWayWin"
-            ReferencedContainer = "container:TwoWayWin.xcodeproj">
+            BlueprintName = "UntitledManager"
+            ReferencedContainer = "container:UntitledManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

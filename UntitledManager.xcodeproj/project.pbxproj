@@ -63,14 +63,14 @@
 		054C4CA918CC71A100156D1C /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
 		054C4CAA18CC71A100156D1C /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 		054C4CAB18CC71A100156D1C /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
-		05FD165418C6E41D009945A1 /* TwoWayWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoWayWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FD165418C6E41D009945A1 /* UntitledManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UntitledManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FD165818C6E41D009945A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05FD165A18C6E41D009945A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05FD165C18C6E41D009945A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		05FD166018C6E41D009945A1 /* TwoWayWin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoWayWin-Info.plist"; sourceTree = "<group>"; };
+		05FD166018C6E41D009945A1 /* UntitledManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UntitledManager-Info.plist"; sourceTree = "<group>"; };
 		05FD166218C6E41D009945A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05FD166418C6E41D009945A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05FD166618C6E41D009945A1 /* TwoWayWin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwoWayWin-Prefix.pch"; sourceTree = "<group>"; };
+		05FD166618C6E41D009945A1 /* UntitledManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UntitledManager-Prefix.pch"; sourceTree = "<group>"; };
 		05FD166718C6E41D009945A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05FD166818C6E41D009945A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		05FD166A18C6E41D009945A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		05FD164918C6E41D009945A1 = {
 			isa = PBXGroup;
 			children = (
-				05FD165E18C6E41D009945A1 /* TwoWayWin */,
+				05FD165E18C6E41D009945A1 /* UntitledManager */,
 				05FD165718C6E41D009945A1 /* Frameworks */,
 				05FD165518C6E41D009945A1 /* Products */,
 			);
@@ -116,7 +116,7 @@
 		05FD165518C6E41D009945A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05FD165418C6E41D009945A1 /* TwoWayWin.app */,
+				05FD165418C6E41D009945A1 /* UntitledManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		05FD165E18C6E41D009945A1 /* TwoWayWin */ = {
+		05FD165E18C6E41D009945A1 /* UntitledManager */ = {
 			isa = PBXGroup;
 			children = (
 				054C4CA918CC71A100156D1C /* ItemDetailViewController.h */,
@@ -170,16 +170,17 @@
 				054C4CA118CC4A6F00156D1C /* Item.h */,
 				054C4CA218CC4A6F00156D1C /* Item.m */,
 			);
+			name = UntitledManager;
 			path = TwoWayWin;
 			sourceTree = "<group>";
 		};
 		05FD165F18C6E41D009945A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				05FD166018C6E41D009945A1 /* TwoWayWin-Info.plist */,
+				05FD166018C6E41D009945A1 /* UntitledManager-Info.plist */,
 				05FD166118C6E41D009945A1 /* InfoPlist.strings */,
 				05FD166418C6E41D009945A1 /* main.m */,
-				05FD166618C6E41D009945A1 /* TwoWayWin-Prefix.pch */,
+				05FD166618C6E41D009945A1 /* UntitledManager-Prefix.pch */,
 				05FD166A18C6E41D009945A1 /* Default.png */,
 				05FD166C18C6E41D009945A1 /* Default@2x.png */,
 				05FD166E18C6E41D009945A1 /* Default-568h@2x.png */,
@@ -190,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05FD165318C6E41D009945A1 /* TwoWayWin */ = {
+		05FD165318C6E41D009945A1 /* UntitledManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FD168C18C6E41D009945A1 /* Build configuration list for PBXNativeTarget "TwoWayWin" */;
+			buildConfigurationList = 05FD168C18C6E41D009945A1 /* Build configuration list for PBXNativeTarget "UntitledManager" */;
 			buildPhases = (
 				05FD165018C6E41D009945A1 /* Sources */,
 				05FD165118C6E41D009945A1 /* Frameworks */,
@@ -202,9 +203,9 @@
 			);
 			dependencies = (
 			);
-			name = TwoWayWin;
+			name = UntitledManager;
 			productName = TwoWayWin;
-			productReference = 05FD165418C6E41D009945A1 /* TwoWayWin.app */;
+			productReference = 05FD165418C6E41D009945A1 /* UntitledManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +217,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Troy Jaeger";
 			};
-			buildConfigurationList = 05FD164E18C6E41D009945A1 /* Build configuration list for PBXProject "TwoWayWin" */;
+			buildConfigurationList = 05FD164E18C6E41D009945A1 /* Build configuration list for PBXProject "UntitledManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,7 +229,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05FD165318C6E41D009945A1 /* TwoWayWin */,
+				05FD165318C6E41D009945A1 /* UntitledManager */,
 			);
 		};
 /* End PBXProject section */
@@ -383,10 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TwoWayWin/TwoWayWin-Prefix.pch";
-				INFOPLIST_FILE = "TwoWayWin/TwoWayWin-Info.plist";
+				GCC_PREFIX_HEADER = "TwoWayWin/UntitledManager-Prefix.pch";
+				INFOPLIST_FILE = "TwoWayWin/UntitledManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UntitledManager;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,10 +396,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TwoWayWin/TwoWayWin-Prefix.pch";
-				INFOPLIST_FILE = "TwoWayWin/TwoWayWin-Info.plist";
+				GCC_PREFIX_HEADER = "TwoWayWin/UntitledManager-Prefix.pch";
+				INFOPLIST_FILE = "TwoWayWin/UntitledManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UntitledManager;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -406,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05FD164E18C6E41D009945A1 /* Build configuration list for PBXProject "TwoWayWin" */ = {
+		05FD164E18C6E41D009945A1 /* Build configuration list for PBXProject "UntitledManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FD168A18C6E41D009945A1 /* Debug */,
@@ -415,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FD168C18C6E41D009945A1 /* Build configuration list for PBXNativeTarget "TwoWayWin" */ = {
+		05FD168C18C6E41D009945A1 /* Build configuration list for PBXNativeTarget "UntitledManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FD168D18C6E41D009945A1 /* Debug */,
