@@ -170,8 +170,7 @@
 				054C4CA118CC4A6F00156D1C /* Item.h */,
 				054C4CA218CC4A6F00156D1C /* Item.m */,
 			);
-			name = UntitledManager;
-			path = TwoWayWin;
+			path = UntitledManager;
 			sourceTree = "<group>";
 		};
 		05FD165F18C6E41D009945A1 /* Supporting Files */ = {
